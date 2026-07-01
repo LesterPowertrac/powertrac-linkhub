@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../images/powertrac_background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:420px;
+}
+
+.card{
+    background: rgb(255 255 255 / 80%);
+    border-radius:22px;
+    padding:40px 30px;
+    text-align:center;
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
+}
+
+.logo{
+    width:260px;
+    margin:0 auto 10px;
+}
+
+.logo img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+h1{
+    color:#00217f;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#555;
+    font-weight:600;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    width:100%;
+    padding:16px 20px;
+    margin-bottom:15px;
+
+    text-decoration:none;
+    color:#fff;
+    font-size:17px;
+    font-weight:600;
+
+    background:#00217f;
+    border-radius:12px;
+
+    transition:.25s ease;
+}
+
+.btn i{
+    width:24px;
+    text-align:center;
+    font-size:20px;
+    flex-shrink:0;
+}
+
+.btn span{
+    flex:1;
+    text-align:center;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(0,33,127,.35);
+}
+
+.btn:last-child{
+    margin-bottom:0;
+}
+
+@media(max-width:500px){
+
+    .card{
+        padding:30px 22px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+}
