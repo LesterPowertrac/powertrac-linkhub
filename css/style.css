@@ -71,7 +71,12 @@ p{
     font-size:17px;
     font-weight:600;
 
-    background:#00217f;
+    background: linear-gradient(
+    to bottom,
+    #47579c,
+    #2d366b
+    );
+
     border-radius:12px;
 
     transition:.25s ease;
