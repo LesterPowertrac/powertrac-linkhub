@@ -71,13 +71,9 @@ p{
     font-size:17px;
     font-weight:600;
 
-    background: linear-gradient(
-    to bottom,
-    #47579c,
-    #2d366b
-    );
-
+    background:linear-gradient(135deg,#0033a0,#00217f);
     border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,33,127,.25);
 
     transition:.25s ease;
 }
